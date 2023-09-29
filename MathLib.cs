@@ -1,4 +1,4 @@
-﻿namespace CalculatorB2B
+﻿namespace Calculator
 {
     public static class MathLib
     {
@@ -22,6 +22,6 @@
             return mathRequest.Op1() / mathRequest.Op2();
         }
 
-        public class CalcException : Exception { };
+        public class BadOperatorException : Exception { };
     }
 }
